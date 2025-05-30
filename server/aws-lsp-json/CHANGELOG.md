@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.10](https://github.com/suprajaven/language-servers/compare/lsp-json/v0.1.9...lsp-json/v0.1.10) (2025-05-30)
+
+
+### Features
+
+* context data selection support in chat-client ([#902](https://github.com/suprajaven/language-servers/issues/902)) ([a22dea5](https://github.com/suprajaven/language-servers/commit/a22dea51c0039f198a403e88f774ad7769b15d29))
+* workspace open settings ([#1055](https://github.com/suprajaven/language-servers/issues/1055)) ([f3018da](https://github.com/suprajaven/language-servers/commit/f3018da706663b0f64bc5b4becc2fd600d5ff5b6))
+
+
+### Bug Fixes
+
+* **amazonq:** Use common utility to determine workspaceFolders and fix tests ([#1353](https://github.com/suprajaven/language-servers/issues/1353)) ([483f532](https://github.com/suprajaven/language-servers/commit/483f532b940d3ff2e914c0824f7501c3fe6a6235))
+* bump runtimes and fix broken test ([#1323](https://github.com/suprajaven/language-servers/issues/1323)) ([7d1a7b9](https://github.com/suprajaven/language-servers/commit/7d1a7b9700ee2cc154dfe357ebbb62597d3f1582))
+* ensure local index server updates with workspaceChangeEvent and bump runtimes ([#1424](https://github.com/suprajaven/language-servers/issues/1424)) ([9babbb6](https://github.com/suprajaven/language-servers/commit/9babbb643daa2893454dbc977d3802822b2c0aa6))
+* onFileClick logic is crashing the whole process if no workspace is open ([#1119](https://github.com/suprajaven/language-servers/issues/1119)) ([0211223](https://github.com/suprajaven/language-servers/commit/0211223a93dd3ddcb5b7b06882e2a10eb09fa01c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/lsp-core bumped from ^0.0.9 to ^0.0.10
+
 ## [0.1.9](https://github.com/aws/language-servers/compare/lsp-json/v0.1.8...lsp-json/v0.1.9) (2025-05-22)
 
 
